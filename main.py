@@ -33,9 +33,11 @@ def get_largest_prime_below(n):
             prim = i
     return prim
 
+
 def test_get_largest_prime_below():
-  assert get_largest_prime_below(48) == 49
-  assert get_largest_prime_below(35) == 31
+    assert get_largest_prime_below(48) == 49
+    assert get_largest_prime_below(35) == 31
+
 
 def is_palindrome(n):
     x = n
